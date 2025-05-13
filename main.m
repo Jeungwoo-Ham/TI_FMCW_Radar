@@ -11,7 +11,7 @@ freq_slope = 63.343 * 10^6; % Frequency Slope (Hz/s)
 frames=200;
 
 % Read .bin file
-fid = fopen("1106_data\1106_cross.bin",'r');
+fid = fopen("Dataset\1106_cross.bin",'r');
 % Set file name of output .gif file
 outputname = "output.gif";
 adcData = fread(fid, 'int16');
